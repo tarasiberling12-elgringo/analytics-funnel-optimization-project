@@ -56,3 +56,10 @@ screenshots/
 	•	Build multi-step funnels.
 	•	Create user cohorts for behavioral analysis.
 	•	Implement dashboard reporting for ongoing monitoring.
+## Screenshots
+### Landing Page
+![Landing Page](screenshot3.png)
+### Event Tracking
+![Events](screenshot2.png)
+### Funnel Analysis
+![Funnel](screenshot1.png)
