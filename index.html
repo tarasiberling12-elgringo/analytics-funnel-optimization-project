@@ -1,1 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.amplitude.com/script/297f8d53b284f1bfe2b687043e54d27b.js"></script>
+    <script>
+      window.amplitude.init("297f8d53b284f1bfe2b687043e54d27b", {
+        fetchRemoteConfig: true,
+        autocapture: {
+          pageViews: true,
+          sessions: true,
+          elementInteractions: true,
+          attribution: true,
+        },
+      });
+    </script>
 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Improve Business Decisions with Better Analytics</title>
+    <meta
+      name="description"
+      content="Use data and analytics to make smarter business decisions and drive growth."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container navbar-inner">
+        <span class="logo">DataPulse</span>
+        <nav>
+          <a href="#features">Features</a>
+          <a href="#about">About</a>
+          <button class="btn btn-outline" id="navSignUp">Sign Up</button>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="badge">Trusted by 2,000+ businesses</div>
+        <h1>Improve Business Decisions<br />with Better Analytics</h1>
+        <p class="hero-description">
+          Turn raw data into actionable insights. DataPulse gives your team the
+          tools to understand trends, measure performance, and make confident
+          decisions that drive real growth — all in one place.
+        </p>
+        <div class="cta-group">
+          <button class="btn btn-primary" id="signUpBtn">Sign Up</button>
+          <button class="btn btn-secondary" id="demoBtn">Request Demo</button>
+        </div>
+        <p class="cta-note">
+          No credit card required &mdash; free 14-day trial
+        </p>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="card-float card-1">
+          <div class="stat-label">Revenue Growth</div>
+          <div class="stat-value">+34%</div>
+          <div class="stat-bar">
+            <div class="bar-fill" style="width: 68%"></div>
+          </div>
+        </div>
+        <div class="card-float card-2">
+          <div class="stat-label">Active Users</div>
+          <div class="stat-value">12,840</div>
+          <div class="sparkline">
+            <svg viewBox="0 0 80 30" preserveAspectRatio="none">
+              <polyline
+                points="0,25 15,18 30,22 45,10 60,14 80,5"
+                fill="none"
+                stroke="#6366f1"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="card-float card-3">
+          <div class="stat-label">Avg. Decision Speed</div>
+          <div class="stat-value">2.4x faster</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <h2>Everything you need to grow smarter</h2>
+        <p class="section-sub">
+          From real-time dashboards to automated reports, DataPulse gives you
+          clarity at every step.
+        </p>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">📊</div>
+            <h3>Real-Time Dashboards</h3>
+            <p>
+              Monitor KPIs and key metrics live. Spot opportunities and risks
+              the moment they emerge.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔍</div>
+            <h3>Deep-Dive Analysis</h3>
+            <p>
+              Drill down into your data with powerful filters and segmentation —
+              no SQL required.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📈</div>
+            <h3>Predictive Insights</h3>
+            <p>
+              Forecast trends and anticipate customer behavior with AI-powered
+              predictions.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🤝</div>
+            <h3>Team Collaboration</h3>
+            <p>
+              Share reports, annotate charts, and keep your whole team aligned
+              around the same data.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-band-inner">
+        <h2>Ready to make better decisions?</h2>
+        <p>
+          Join thousands of businesses already using DataPulse to grow with
+          confidence.
+        </p>
+        <div class="cta-group">
+          <button class="btn btn-white" id="signUpBtn2">Sign Up Free</button>
+          <button class="btn btn-outline-white" id="demoBtn2">
+            Request Demo
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span class="logo">DataPulse</span>
+        <p>&copy; 2026 DataPulse. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal" id="modal">
+        <button class="modal-close" id="modalClose">&times;</button>
+        <h2 id="modalTitle">Sign Up</h2>
+        <p id="modalDesc">
+          Create your free account and start your 14-day trial today.
+        </p>
+        <form id="modalForm">
+          <input type="text" placeholder="Your name" required />
+          <input type="email" placeholder="Work email" required />
+          <button type="submit" class="btn btn-primary" style="width: 100%">
+            Get Started
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.amplitude.com/script/161b0ec949b23100f275e7122ca08b10.js"></script>
+    <script>
+      window.amplitude.init("161b0ec949b23100f275e7122ca08b10");
+    </script>
+    <script src="./script.js"></script>
+  </body>
+</html>
